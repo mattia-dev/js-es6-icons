@@ -2,6 +2,35 @@ body {
     background-color: #ccc;
 }
 
+header {
+    height: 60px;
+    background-color: white;
+    font-family: 'Patrick Hand', cursive;
+    color: #29b1dd;
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+nav {
+    height: 60px;
+    background-color: #29b1dd;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav label {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#icons {
+    flex-basis: 140px;
+}
+
 .icon-box {
     flex-basis: calc(100% / 5);
     max-width: calc(100% / 5);
